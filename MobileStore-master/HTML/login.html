@@ -1,0 +1,103 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width , initial-scale=1" />
+    <title>Mobile Store</title>
+    <!--Latest Compiled and minified css-->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" type="text/css">
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="../CSS/index.css" type="text/css">
+    <!--jQueryLibrary-->
+    <script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+    <!--Latest compiled and minified js-->
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+    <!--Creating NavBar-->
+    <div class="header">
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Mobile Store</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="./signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href ="./login.html"><span class ="glphicon glyphicon glyphicon-log-in"> Login</span></a></li>
+                        <li><a href="./aboutus.html"><span class="glyphicon glyphicon-tasks"></span> About Us</a></li>
+                        <li><a href="./contactus.html"><span class="glyphicon glyphicon-phone"></span> Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    <!-- Login Page-->  
+    <div>
+    <h2 style="text-align: center;">Login Form</h2>
+
+    <form action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <img src="../Images/avatar.png" alt="Avatar" class="avatar">
+      </div>
+    
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+    
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+            
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+    </form>
+    
+    </div>
+    
+    <!--Footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <ul style="list-style-type:none;">
+                    <li>
+                        <h4>Information</h4>
+                    </li>
+                    <li><a style="color:white" href="./aboutus.html">About Us</a></li>
+                    <li><a style="color:white" href="./contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <ul style="list-style-type:none;">
+                    <li>
+                        <h4>My account</h4>
+                    </li>
+                    <li><a style="color:white" data-toggle="modal" data-target="#loginmodal">Login</a></li>
+                    <li><a style="color:white" href="./signup.html">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4">
+                <ul style="list-style-type:none;">
+                    <li>
+                        <h4>Contact Us</h4>
+                    </li>
+                    <li>Contact : +91-9000000000
+            </div>
+            </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
